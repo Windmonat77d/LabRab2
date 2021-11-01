@@ -1,0 +1,120 @@
+	body{
+	background:#FFEFD5;	
+	}
+	.header{
+	border: 4px double black;
+	text-align: center;
+	background: #919192;
+	}
+	#hd{
+	color: white;
+	}
+	.topline{
+	border: 4px double red;
+	background: #ffe6ac;
+	text-align: center;
+	}
+	.topline a{
+	text-decoration: none;
+	}
+	.topline p{
+	white-space: nowrap;
+	display: inline-block;
+	}
+	.block{
+	display: flex;
+	}
+	.leftside{
+	border: 4px double red;
+	background: #ffe6ac;
+	float: left;
+	display: block;
+	height: 335px;
+	}
+	.leftside p{
+	width: 200px;
+	line-height: 1.2;
+	}
+	.blacklist{
+	margin: 6px;
+	}
+	.form{
+	margin: 6px;
+	}
+	.centerside{
+	background: #ffe6ac;
+	border: 4px double red;
+	display: block;
+	text-align: justify;
+	height: 335px;
+	overflow: hidden;
+	}
+	.rightside{
+	background: #d7c9c9;
+	border: 4px double red;
+	float: right;
+	display: flex;
+	height: 335px;
+	}
+	.adtext{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 3px;
+	margin-right: 3px;
+	}
+	.center{
+	text-align: center;
+	}
+	.td{
+	text-decoration: none;
+	
+	}
+	.textp p{
+	text-overflow: ellipsis;
+	}
+	.block2{
+	border: 4px double red;
+	background: #ffe6ac;
+	display: flex;
+
+	}
+	.relative, .absolute{
+	display: flex;
+	margin: auto;
+	}
+	.box1{
+	float: left;
+	}
+	.box3{
+	float: right;
+	}
+	.box1, .box3{
+	height: 200px;
+	width: 200px;
+	background: #F39F18;
+	border: 4px solid black;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display:flex;
+	position: relative;	
+	}
+	.box2{
+	position: relative;
+	right: 10px;
+	}
+	.box4{
+	position: absolute;
+	right: 10px;
+	}
+	.box2, .box4 {
+	height: 100px;
+	width: 100px;
+	background: white;
+	border: 2px solid black;
+	display: flex;
+	margin: auto;
+	}
+	.box2 p, .box4 p{
+	margin: auto;
+	text-align: center;
+	}
